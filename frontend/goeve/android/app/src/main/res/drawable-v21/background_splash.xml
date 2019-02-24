@@ -3,9 +3,5 @@
 
     <item android:drawable="@color/splash_color"
         android:paddingTop="120dp"/>
-    <item
-        android:width="200dp"
-        android:height="200dp"
-        android:drawable="@mipmap/ic_splash_screen"
-        android:gravity="center" />
+
 </layer-list>
