@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:drawable="@color/splash_color"
-        android:src="@drawable/icon"
-        android:paddingTop="120dp"/>
+    <item android:drawable="@color/splash_color" />
+    <item android:width="200dp"
+        android:height="200dp"
+        android:drawable="@drawable/icon"
+        android:gravity="center"/>
 
 </layer-list>
