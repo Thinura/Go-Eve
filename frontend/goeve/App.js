@@ -10,6 +10,7 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, Text, View} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
+import { Main } from './src/Routes';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -25,10 +26,8 @@ export default class App extends Component<Props> {
   }
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+      <View >
+        <Main/>
       </View>
     );
   }
@@ -52,3 +51,7 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+// import React from 'react';
+// import { Main } from './Screen/Routers';
+
+// export default class App extends React.Component{ render() { return( <Main/> ); } };
